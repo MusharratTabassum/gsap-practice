@@ -1,23 +1,53 @@
-body {
-    margin: 0;
-    overscroll-behavior: none;
-    height: 100vh;
-    overflow-x: hidden;
-}
+/*body {*/
+/*    margin: 0;*/
+/*    overscroll-behavior: none;*/
+/*    height: 100vh;*/
+/*    overflow-x: hidden;*/
+/*}*/
 
+/*.container {*/
+/*    overscroll-behavior: none;*/
+/*    width: 600%;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
+body {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+}
 .container {
     overscroll-behavior: none;
     width: 600%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-wrap: nowrap;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
 }
 
 .div1 {
     height: 100vh;
     background-color: pink;
 }
-
+.panel{
+    width: 100%;
+}
 .div2 {
     height: 100vh;
     background-color: salmon;
